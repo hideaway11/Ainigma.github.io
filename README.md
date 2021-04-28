@@ -1,1 +1,1 @@
-# Ainigma.github.io
+# ainigma.github.io

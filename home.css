@@ -41,7 +41,20 @@ header{
 
 @media(max-width:1025px){
   header{
+    height:120px;
+  }
 
+  .header-in{
+    line-height: 0;
+    font-size: 0;
+    width: 100%;
+  }
+
+  .header-in h3{
+    letter-spacing: 2px;
+    line-height: 80px;
+    font-size: 23px;
+    border-right: 3px solid gray;
   }
 }
 
@@ -56,7 +69,8 @@ header{
 
 @media(max-width:1025px){
   .all{
-
+    height: 2000px;
+    padding-top: 120px;
   }
 }
 
@@ -110,9 +124,50 @@ header{
   padding-left: 20px;
   font-size: 19px;
 }
+
 @media(max-width:1025px){
   .top{
     width: 100%;
+  }
+
+  .intro{
+    padding-top: 100px;
+  }
+
+  .intro p{
+    font-size: 23px;
+    line-height: 50px;
+  }
+
+  .news{
+    width: 100%;;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: mintcream;
+  }
+
+  .news-in{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  #news{
+    font-size: 23px;
+  }
+
+  .news p{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0 35px;
+  }
+
+  .news p a{
+    padding-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: underline;
   }
 }
 

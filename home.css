@@ -71,6 +71,7 @@ header{
   .all{
     height: 2000px;
     padding-top: 120px;
+    background-color: white;
   }
 }
 
@@ -84,15 +85,18 @@ header{
 }
 
 .intro{
-  width: 980px;
+  width: 680px;
   padding: 0;
   padding-top: 40px;
   margin: 0 auto;
 }
 
-.intro p{
+.intro #don{
   text-align: center;
-  line-height: 30px;
+}
+
+.intro p{
+  line-height: 33px;
   font-size: 20px;
   color: white;
 }
@@ -131,21 +135,27 @@ header{
   }
 
   .intro{
+    width: 100%;
     padding-top: 100px;
   }
 
   .intro p{
-    font-size: 23px;
+    font-size: 25px;
     line-height: 50px;
+    color: black;
+  }
+
+  .intro p span{
+    font-weight: bold;
   }
 
   .news{
     width: 100%;;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 150px;
     padding-top: 40px;
     padding-bottom: 50px;
-    background-color: mintcream;
+    background-color: whitesmoke;
   }
 
   .news-in{
@@ -154,11 +164,11 @@ header{
   }
 
   #news{
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .news p{
-    font-size: 20px;
+    font-size: 22px;
     line-height: 35px;
     padding: 0 35px;
   }
